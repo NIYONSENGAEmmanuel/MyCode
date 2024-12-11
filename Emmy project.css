@@ -1,0 +1,516 @@
+body{
+    border: 20px solid black;
+}
+.lL{
+background-color:white;
+border-radius: 100px;
+
+}
+
+.A-section{
+    display: flex;
+    padding-top: 200px;
+   
+
+}
+.A-section img{
+    width: 100px;
+    height: 100px;
+    padding-top: 150px;
+    margin-left: 5px;
+}
+.A-section h1{
+font-size: 150px;
+}
+.A-section p{
+    font-size: 70px;
+    padding-top: 200px;
+    margin-left: -1500px;
+    color: rgb(99, 96, 96);
+}
+.B-section ul{
+    display: flex;
+    position: absolute;
+    top: 340px;
+    left: 2500px;
+}
+.B-section li{
+    display: flex;
+    font-size: 70px;
+    margin-left: 20px;
+    color: rgb(99, 96, 96);
+}
+.B-section i{
+    font-size: 60px;
+    margin-left: 40px;
+    color: red;
+    padding-top: 20px;
+}
+.C-section{
+display: flex;
+margin-left: 1300px;
+padding-top: 300px;
+}
+.C-section li{
+    display: flex;
+    font-size: 90px;
+}
+.C-section p{
+    font-size: 50px;
+    padding-top: 90px;
+    margin-left: -1600px;
+    color: rgb(105, 104, 104);
+}
+.C-section ol{
+    color: red;
+}
+.D-section{
+    display: flex;
+    margin-left: 1240px;
+    padding-top: 90px;
+}
+.D-section button{
+    margin-left: 30px;
+    width: 700px;
+    height: 100px;
+    
+}
+.D-section b{
+    font-size: 20px;
+}
+.d button{
+    margin-left: 80px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    
+}
+.E-section h1{
+    margin-left: 1869px;
+    padding-top: 230px;
+    font-size: 100px;
+    
+}
+.ee h1{
+    margin-left: 1400px;
+    padding-top: 500px;
+    font-size: 100px;
+    position: absolute;
+    top: 1100px;
+    left: 700px;
+    color: red;
+    
+}
+.ee ul{
+    font-size: 50px;
+    position: absolute;
+    left: 1500px;
+    top: 1719px;
+    color: rgb(88, 87, 87);
+    list-style-type: none;
+}
+
+.S-section ul{
+    display: flex;
+padding-top: 300px;
+list-style-type: none;
+
+    
+}
+.S-section .image1{
+    width: 800px;
+    height: 800px;
+}
+.S-section .image2{
+    width: 800px;
+    height: 800px;
+}
+.S-section .image3{
+    width: 800px;
+    height: 800px;
+}
+.S-section .image4{
+    width: 800px;
+    height: 800px;
+}
+.S-section .image5{
+    width: 750px;
+    height: 800px;
+}
+.G-section ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+.G-section .image1{
+    width: 830px;
+    height: 700px;
+}
+.G-section .image2{
+    width: 830px;
+    height: 700px;  
+}
+.G-section .image3{
+    width: 830px;
+    height: 700px;  
+}
+.G-section .image4{
+    width: 830px;
+    height: 700px;  
+}
+.G-section .image5{
+    width: 630px;
+    height: 700px;  
+}
+.H-section ul{
+    display: flex;
+    list-style-type: none;
+}
+.H-section .image1{
+    width: 750px;
+    height: 700px;
+}
+.H-section .image2{
+    width: 820px;
+    height: 700px;
+}
+.H-section .image3{
+    width: 720px;
+    height: 700px;
+}
+.H-section .image4{
+    width: 720px;
+    height: 700px;
+}
+.H-section .image5{
+    width: 700px;
+    height: 700px;
+}
+.H-section .image6{
+    width: 240px;
+    height: 700px;
+}
+.Z-section{
+    margin-left: 1500px;
+    padding-top: 200px;
+}
+.Z-section ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 50px;
+}
+.z li{
+    color: red;
+}
+.Z-section p{
+    font-size: 40px;
+    position: absolute;
+    top: 4800px;
+    left: 1700px;
+    color: rgb(65, 64, 64);
+}
+.FF-section img{
+width: 500px;
+height: 200px;
+margin-left: 1800px;
+padding-top: 300px;
+}
+.EE-section{
+    font-size: 60px;
+    margin-left: 700px;
+}
+.EE-section ul{
+    list-style-type: none;
+    color: rgb(94, 91, 91);
+
+}
+.ww-section{ 
+    margin-left: 1800px;
+}
+.ww-section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.ww-section ul{
+    font-size: 50px;
+    list-style-type: none;
+    position: absolute;
+    top: 5700px;
+    left: 1980px;
+}
+.rr-section { 
+    margin-left: 1900px;
+    padding-top: 250px;
+}
+.rr-section ul{
+    list-style-type: none;
+    display: flex;
+}
+.rr-section button{
+    width: 200px;
+    height: 15px;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid white;
+}
+.TT button{
+    background-color: red;
+    position: absolute;
+    left: 1739px;
+    border: 1px solid white;
+}
+.YY-section {
+    padding-top: 300px;
+}
+.YY-section img{
+    width: 1800px;
+    height: 800px;
+}
+.rr{
+    position: absolute;
+    left: 1900px;
+    top: 6500px;
+}
+.rr h1{
+    font-size: 70px;
+}
+.rr h4{
+    font-size: 50px;
+    color: red;
+    position: absolute;
+    top: 50px;
+
+}
+.rr p{
+    font-size: 40px;
+
+
+}
+
+.dd-section {
+    padding-top: 300px;
+}
+.dd-section img{
+    width: 1990px;
+    height: 800px;
+    margin-left: 2000px;
+    position: absolute;
+    top: 7350px;
+}
+.dd{
+    margin-left: 300px;
+}
+.dd h1{
+    font-size: 50px;
+}
+.dd h4{
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 7649px;
+    left: 400px;
+}
+.dd p{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.UU-section ul{
+    display: flex;
+    padding-top: 300px;
+}
+.UU-section .image1{
+    width: 500px;
+    height: 800px;
+}
+.UU-section .image2{
+    width: 1000px;
+    height: 800px;
+}
+.UU-section .image3{
+    width: 1000px;
+    height: 800px;
+}
+.UU-section .image4{
+    width: 1000px;
+    height: 800px;
+}
+.UU-section .image5{
+    width: 450px;
+    height: 800px;
+}
+.LL-section img{
+    width: 150px;
+    height: 150px;
+}
+.LL-section ul{
+    list-style-type: none;
+    display: flex;
+}
+.LL-section .image1{
+position: absolute;
+left: 400px;
+top: 8200px;
+
+}
+.LL-section .image2{
+    position: absolute;
+    left: 1370px;
+    top: 8200px;
+    
+    }
+    .LL-section .image3{
+        position: absolute;
+        left: 2350px;
+        top: 8200px;
+        
+        }
+        .LL-section .image4{
+            position: absolute;
+            left: 3350px;
+            top: 8200px;
+            
+            }
+            .O-section button{
+                background-color: red;
+                height: 50px;
+                width: 250px;
+                color: white;
+                border: 1px solid rgb(231, 14, 14);
+                position: absolute;
+                left: 550px;
+                top: 8900px;
+            }
+            .aa button{
+                background-color: red;
+                height: 50px;
+                width: 250px;
+                color: white;
+                border: 1px solid rgb(231, 14, 14);
+                position: absolute;
+                left: 1560px;
+                top: 8900px;
+            }
+            .xx button{
+                background-color: red;
+                height: 50px;
+                width: 250px;
+                color: white;
+                border: 1px solid rgb(231, 14, 14);
+                position: absolute;
+                left: 2560px;
+                top: 8900px;
+            }
+            .vv button{
+                background-color: rgb(5, 190, 67);
+                height: 50px;
+                width: 250px;
+                color: white;
+                border: 1px solid rgb(231, 14, 14);
+                position: absolute;
+                left: 3590px;
+                top: 8900px;
+            }
+            .aaa{
+                position: absolute;
+top: 8960px;
+            left: 700px;
+               
+            }
+     .xxxx{
+        position: absolute;
+        left:  1600px;
+        top: 8960px;
+     }
+     .vvvv{
+        position: absolute;
+        left:  2600px;
+        top: 8960px;
+     }
+     .NN{
+        position: absolute;
+        left: 3500px;
+        top: 8960px;
+     }
+     .ooo-section{
+        margin-left: -200px;
+
+     }
+     .Ee-section li{
+        display: flex;
+        margin-left: 2000px;
+        padding-top: 200px;
+     }
+     .Ee-section h1{
+        font-size: 70px;
+     }
+     .Ee-section h2{
+        font-size: 70px;
+        position: absolute;
+        left: 2420px;
+        top: 9300px;
+        color: red;
+
+     }
+     .Ee-section p{
+        font-size: 40px;
+        margin-left: -500px;
+        padding-top: 90px;
+        color: rgb(88, 87, 87);
+     }
+     .rR button{
+        background-color: red;
+        width: 350px;
+        height: 80px;
+        margin-left: 500px;
+        color:white;
+        border: red;
+        
+     }
+     .rR b{
+        font-size: 33px;
+    position: absolute;
+    top: 9770px;
+    left: 2200px;
+
+     }
+     .rR{
+        margin-left: 1600px;
+        padding-top: 200px;
+     }
+     .Yy img{
+        width: 100%;
+        height: 1000px;
+     }
+ .Emmy h1{
+    position: absolute;
+    top: 10099px;
+    left: 2000px;
+    font-size: 70px;
+    color: white;
+
+ }
+ .Emmy h6{
+    position: absolute;
+    top: 10109px;
+    left: 2100px;
+    font-size: 50px;
+    color: rgb(248, 248, 248);
+ }
+    .Emmy p{
+        position: absolute;
+        top: 10299px;
+        left: 2000px;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+    .pracide{
+        background-color: rgb(250, 250, 250);
+        height: 200px;
+    }
+    .pracide p{
+        font-size: 30px;
+        margin-left: 100px;
+        padding-top: 10px;
+    }
+     

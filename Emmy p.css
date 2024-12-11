@@ -1,0 +1,821 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(4, 4, 20);
+}
+header{
+    background-image:linear-gradient(rgba(8, 8, 8, 0),rgba(8, 8, 8, 0),rgba(8, 8, 8, 0)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXW9NCZvvE2Iiy-jXLeEdvkzIFYoOpWPR27OrPtgQMZRJXe5H_q-A_vUT_uFtl2tIIYs&usqp=CAU);
+height:100vh;
+background-size: cover;
+background-position: center;
+min-height: 100px;
+}
+.A{
+    background-image:linear-gradient(rgba(8, 8, 8, 0),rgba(8, 8, 8, 0),rgba(8, 8, 8, 0)), url(data:image/jpeg;base64,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);
+height:100vh;
+background-size: cover;
+background-position: center;
+min-height: 100px;
+width: 800px;
+height: 500px;
+margin-left: 200px;
+position: absolute;
+top: 100px;
+border: 10px solid black;
+border-radius: 20px;
+box-shadow: black 0px 5px 10px;
+}
+.Q{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+   
+   
+
+}
+.Q img{
+    width: 15px;
+    height: 15px;
+  padding-top: 5px;
+    margin-left: 5px;
+}
+.Q h1{
+font-size: 25px;
+
+}
+.Q p{
+    font-size: 13px;
+    padding-top: 25px;
+   margin-left: -290px;
+    color: rgb(58, 57, 57);
+}
+.q ul{
+    display: flex;
+    position: absolute;
+    left: 650px;
+    top: 20px;
+    font-size: 20px;
+}
+.q li{
+    display: flex;
+   
+    margin-left: 20px;
+    color: rgb(99, 96, 96);
+}
+.q i{
+   
+    margin-left: 40px;
+    color: red;
+    padding-top: 5px;}
+
+.P{
+    margin-left: 20px;
+}
+.P li{
+    display: flex;
+}
+.P ol{
+    margin-left: 500px;
+    font-size: 35px;
+    padding-top: 150px;
+    color: red;
+}
+.P ul{
+    position: absolute;
+    font-size: 35px;
+    top: 211px;
+    left: 290px;
+}
+.P p{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+}
+.p{
+    display: flex;
+    margin-left: 170px;
+    padding-top: 90px;
+    position: absolute;
+    left: 130px;
+    top: 210px;
+}
+.p button{
+    margin-left: 50px;
+    width: 120px;
+    height: 30px;
+   
+    
+}
+.D-section b{
+    font-size: 10px;
+}
+.d button{
+    margin-left: 80px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    
+}
+.R{
+    width: 100%;
+    
+    height: 100vh;
+
+}
+.r{
+    width: 90%;
+    height: 500px;
+    background-color: rgb(218, 218, 218);
+    margin-left: 90px;
+    position: absolute;
+    top: 680px;
+}
+
+
+
+.a-section{
+    display: flex;
+    padding-top: 5px;
+   
+
+}
+.a-section img{
+    width: 15px;
+    height: 15px;
+  padding-top: 5px;
+    margin-left: 5px;
+}
+.a-section h1{
+font-size: 20px;
+}
+.a-section p{
+    font-size: 10px;
+    padding-top: 25px;
+   margin-left: -230px;
+    color: rgb(58, 57, 57);
+}
+.B-section ul{
+    display: flex;
+    position: absolute;
+    left: 300px;
+    top: 5px;
+}
+.B-section li{
+    display: flex;
+   
+    margin-left: 20px;
+    color: rgb(99, 96, 96);
+}
+.B-section i{
+   
+    margin-left: 40px;
+    color: red;
+    padding-top: 5px;}
+
+.C-section{
+    margin-left: 20px;
+}
+.C-section li{
+    display: flex;
+}
+.C-section ol{
+    margin-left: 300px;
+    font-size: 30px;
+    padding-top: 119px;
+    color: red;
+}
+.C-section ul{
+    position: absolute;
+    font-size: 30px;
+    top: 160px;
+    left: 109px;
+}
+.C-section p{
+    position: absolute;
+    top: 209px;
+    left: 100px;
+    color: rgb(41, 41, 41);
+}
+.D-section{
+    display: flex;
+    margin-left: 40px;
+    padding-top: 90px;
+    position: absolute;
+    left: 130px;
+    top: 210px;
+}
+.D-section button{
+    margin-left: 30px;
+    width: 120px;
+    height: 30px;
+   
+    
+}
+.D-section b{
+    font-size: 10px;
+}
+.d button{
+    margin-left: 80px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    
+}
+.ww{
+    width: 90%;
+    height: 2990px;
+    background-color: white;
+    position: absolute;
+    top: 1180px;
+    left: 90px;
+}
+
+.E-section h1{
+ margin-left: 450px;
+ padding-top: 59px;
+}
+.ee h1{
+    margin-left: 590px;
+    padding-top: 50px;  
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    color: red;
+}
+.ee li{
+    margin-left: 400px;
+    list-style-type: none;
+}
+
+
+.S-section ul{
+    display: flex;
+padding-top: 300px;
+list-style-type: none;
+
+    
+}
+.S-section .image1{
+    width: 250px;
+    height: 200px;
+}
+.S-section .image2{
+    width: 250px;
+    height: 200px;
+}
+.S-section .image3{
+    width: 250px;
+    height: 200px;
+}
+.S-section .image4{
+    width: 250px;
+    height: 200px;
+}
+.S-section .image5{
+    width: 214px;
+    height: 200px;
+}
+.G-section ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+.G-section .image1{
+    width: 270px;
+    height: 200px;
+}
+.G-section .image2{
+    width: 250px;
+    height: 200px;  
+}
+.G-section .image3{
+    width: 250px;
+    height: 200px;  
+}
+.G-section .image4{
+    width: 250px;
+    height: 200px;  
+}
+.G-section .image5{
+    width: 194px;
+    height: 200px;  
+}
+.H-section ul{
+    display: flex;
+    list-style-type: none;
+}
+.H-section .image1{
+    width: 100px;
+    height: 200px;
+}
+.H-section .image2{
+    width: 200px;
+    height: 200px;
+}
+.H-section .image3{
+    width: 250px;
+    height: 200px;
+}
+.H-section .image4{
+    width: 250px;
+    height: 200px;
+}
+.H-section .image5{
+    width: 250px;
+    height: 200px;
+}
+.H-section .image6{
+    width: 165px;
+    height: 200px;
+}
+
+
+.Z-section{
+ position: absolute;
+    padding-top: 200px;
+    left: 350px;
+    top: 850px;
+}
+.Z-section ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+.z li{
+    color: red;
+}
+.Z-section p{
+    font-size: 20px;
+   
+    color: rgb(65, 64, 64);
+}
+.FF-section img{
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+    padding-top: 300px;
+    position: absolute;
+    left: 350px;
+    top: 890px;
+    }
+    .EE-section{
+        font-size: 20px;
+        margin-left: 100px;
+        padding-top: 290px;
+    }
+    .EE-section ul{
+        list-style-type: none;
+        color: rgb(94, 91, 91);
+    
+    }
+    .ww-section{ 
+        margin-left: 430px;
+        padding-top: 50px;
+    }
+    .ww-section img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+    .ww-section ul{
+        font-size: 20px;
+        list-style-type: none;
+        position: absolute;
+       left: 540px;
+       top: 1439px;
+    }
+    .rr-section { 
+        margin-left: 600px;
+        padding-top: 40px;
+    }
+    .rr-section ul{
+        list-style-type: none;
+        display: flex;
+    }
+    .rr-section button{
+        width: 50px;
+        height: 5px;
+        background-color: rgb(224, 224, 224);
+        border: 1px solid white;
+    }
+    .TT button{
+        background-color: red;
+        position: absolute;
+        left: 547px;
+        border: 1px solid white;
+    }
+
+
+    .YY-section {
+        padding-top: 100px;
+    }
+    .YY-section img{
+        width: 550px;
+        height: 400px;
+    }
+    .rr{
+      position: absolute;  
+      left: 700px;
+      top: 1759px;
+    }
+    .rr h1{
+        font-size: 23px;
+    }
+    .rr h4{
+        font-size: 15px;
+        color: red;
+        margin-left: 20px;
+   
+    }
+    .rr p{
+        font-size: 15px;
+        padding-top: 10px;
+        color: rgb(68, 67, 66);
+    
+    
+    }
+    .dd-section {
+        padding-top: 300px;
+    }
+    .dd-section img{
+        position: absolute;
+        left: 664px;
+        width: 550px;
+        height: 400px;
+        top: 1999px;
+    }
+    .dd{
+        position: absolute;
+        top: 2090px;
+        left: 150px;
+      
+    }
+    .dd h1{
+        font-size: 20px;
+    }
+    .dd h4{
+        font-size: 15px;
+        color: red;
+       padding-top: 5px;
+       margin-left: 20px;
+       
+    }
+    .dd p{
+        font-size: 15px;
+        padding-top: 10px;
+        color: rgb(68, 67, 66);
+ 
+    }
+   
+    .UU-section ul{
+        display: flex;
+        padding-top: 22px;
+        
+    }
+    .UU-section .image1{
+        width: 150px;
+        height: 300px;
+    }
+    .UU-section .image2{
+        width: 300px;
+        height: 300px;
+    }
+    .UU-section .image3{
+        width: 300px;
+        height: 300px
+    }
+    .UU-section .image4{
+        width: 300px;
+        height: 300px
+    }
+    .UU-section .image5{
+        width: 163px;
+        height: 300px
+    }
+    .LL-section img{
+        width: 50px;
+        height: 50px;
+        
+       
+    }
+    .LL-section {
+        position: absolute;
+        top: 2410px;
+    }
+    .LL-section ul{
+        list-style-type: none;
+        display: flex;
+    }
+    .LL-section .image1{
+   position: absolute;
+   left: 89px;
+
+   
+    
+    }
+    .LL-section .image2{
+        position: absolute;
+        left: 400px;
+ 
+        
+        }
+        .LL-section .image3{
+            position: absolute;
+            left: 695px;
+  
+            
+            }
+            .LL-section .image4{
+                position: absolute;
+                left: 1000px;
+               
+                
+                }
+                .O-section button{
+                    background-color: red;
+                    height: 20px;
+                    width: 100px;
+                    color: white;
+                    border: 1px solid rgb(231, 14, 14);
+                    position: absolute;
+                    left: 150px;
+                    top: 2680px;
+                   
+                }
+                .aa button{
+                    background-color: red;
+                    height: 20px;
+                    width: 100px;
+                    color: white;
+                    border: 1px solid rgb(231, 14, 14);
+                    position: absolute;
+                    left: 450px;
+                    top: 2680px;;
+                    
+                }
+                .xx button{
+                    background-color: red;
+                    height: 20px;
+                    width: 100px;
+                    color: white;
+                    border: 1px solid rgb(231, 14, 14);
+                    position: absolute;
+                    left: 750px;
+                    top: 2680px;
+                }
+                .vv button{
+                    background-color: red;
+                    height: 20px;
+                    width: 100px;
+                    color: white;
+                    border: 1px solid rgb(231, 14, 14);
+                    position: absolute;
+                    left: 1060px;
+                    top: 2680px;
+                    
+                }
+                .aaa{
+                  
+                    position: absolute;
+                    left:  160px;
+                    top: 2730px;
+                   
+                }
+                .aaa h4{
+font-size: 10px;
+                }
+                .aaa p{
+font-size: 10px;
+                }
+         .xxxx{
+            position: absolute;
+            left:  460px;
+            top: 2730px;
+         }
+         .xxxx h4{
+            font-size: 10px;
+                            }
+                            .xxxx p{
+            font-size: 10px;
+                            }
+         .vvvv{
+            position: absolute;
+            left:  750px;
+            top: 2730px;
+         }
+         .vvvv h4{
+            font-size: 10px;
+                            }
+                            .vvvv p{
+            font-size: 10px;
+                            }
+         .NN{
+            position: absolute;
+            left: 1060px;
+            top: 2730px;
+         }
+         .NN h4{
+            font-size: 10px;
+                            }
+                            .NN p{
+            font-size: 10px;
+                            }
+         .ooo-section{
+            margin-left: -100px;
+         padding-top: 30px;
+    
+         }
+         .ooo-section h4{
+            font-size: 10px;
+                            }
+                            .ooo-section p{
+            font-size: 10px;
+                            }
+                            .Ee-section li{
+                                display: flex;
+                                margin-left: 400px;
+                                padding-top: 80px;
+                             }
+                             .Ee-section h1{
+                                font-size: 60px;
+                             }
+                             .Ee-section h2{
+                                font-size: 60px;
+                                position: absolute;
+                               
+                              left: 700px;
+                                color: red;
+                        
+                             }
+                             .Ee-section p{
+                                font-size: 20px;
+                                margin-left: -280px;
+                                padding-top: 70px;
+                                color: rgb(88, 87, 87);
+                             }
+                             .rR button{
+                                background-color: red;
+                                width: 150px;
+                                height: 30px;
+                                
+                                color:white;
+                                border: red;
+                                
+                             }
+                             .rR b{
+                                font-size: 10px;
+                            
+                           
+                        
+                             }
+                             .rR{
+                            
+                                position: absolute;
+                                left: 500px;
+                                top: 3000px;
+                             }
+                             .Yy img{
+                                width: 100%;
+                                height: 500px;
+                                padding-top: 90px;
+                             }
+                             .Emmy{
+                                position: absolute;
+                                left: 400px;
+                                top: 3199px;
+                             }
+
+                             .Emmy h1{
+                               
+                                font-size: 70px;
+                                color: white;
+                            
+                             }
+                             .Emmy h6{
+                              
+                                font-size: 50px;
+                                color: white;
+                             }
+                                .Emmy p{
+                                  
+                                    font-size: 30px;
+                                    color: white;
+                                }
+                                .pracide{
+                                    background-color: rgb(250, 250, 250);
+                                    height: 200px;
+                                }
+                                .pracide p{
+                                    font-size: 30px;
+                                    margin-left: 100px;
+                                    padding-top: 10px;
+                                }
+                                .ii{
+                                    position: absolute;
+                                    left: 0px;
+                                top: 3659px;
+                                }
+                                .ii button{
+                                    width: 1217px;
+                                    height: 100px;
+                                    background-color: rgb(1, 2, 14);
+                                    border: 1px solid  rgb(1, 2, 14);
+                                }
+                                .Bush ul{
+                                    display: flex;
+                                    list-style-type: none;
+                                    font-size: 50px;
+                                    margin-left: 300px;
+                                
+                                }
+                                .Bush a{
+                                    text-decoration: none;
+
+                                }
+                             img{
+                                    width: 10px;
+                                    height: 50px;
+                                }
+                                .A1 a{
+                                    color: brown;
+                                }
+                                .bush {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 300px;
+                                }
+                                .bush h1{
+                                    color: blueviolet;
+                                    text-decoration: line-through;
+                                    margin-left: 100px;
+                                }
+                                .A2 a{
+                                    color: blue;
+                                    
+                                }
+                                
+                                .A3 a{
+                                    color: green;
+                                }
+                                
+                                .A4  a{
+                                    color: rgb(26, 0, 26);
+                                }
+                                
+                                .A5 a{
+                                    color: orange;
+                                }
+                                
+                                .A6 a{
+                                    color: pink;
+                                }
+                                
+                                .A7 a{
+                                    color: brown;
+                                }
+                                
+                                .A8 a{
+                                    color: teal;
+                                }
+                                
+                                .A9 a{
+                                    color: rgb(5, 243, 36);
+                                }
+                                
+                                .A10 a{
+                                    color: maroon;
+                                }
+                                .B1 a{
+color: blueviolet;
+                                }
+                                .B2 a{
+                                    color: rgb(3, 238, 255);  
+                                }
+                                .B3 a{
+                                    color: rgb(255, 4, 213);
+                                }
+                                .B4 a{
+                                    color: rgb(255, 0, 76); 
+                                }
+                                .B5 a{
+                                    color: rgb(2, 1, 3);
+                                }
+                                .B6 a{
+                                    color: rgb(252, 29, 0);
+                                }
+                                .B7 a{
+                                    color: rgb(66, 180, 0);
+                                }
+                                .B8 a{
+                                    color: rgb(255, 218, 8); 
+                                }
+                                .B9 a{
+                                    color: rgb(4, 0, 255);
+                                }
+
+                                                      

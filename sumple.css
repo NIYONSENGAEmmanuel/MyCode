@@ -1,0 +1,31 @@
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    margin-left: 100px;
+    border: 1px solid paleturquoise;
+}
+H1{
+background-color:darkgreen ;
+    width: 30%;
+    color: blue;
+    margin-left: 450PX;
+    margin-top: 50PX;
+    border: 1px solid grey;
+    padding-top: 10px;
+}
+table{
+    width: 20%;
+    margin-left: 400px;
+    background-color: aqua;
+    text-align: center;
+    border: 20px solid darkgreen;
+}
+p{
+    width: 20%;
+    background-color: blue;
+    color: brown;
+    margin-left: 400px;
+    margin-top: 300px;
+  
+}

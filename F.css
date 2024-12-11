@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    box-shadow: #9e2828cc 0px 0px 10px;
+}
+.middle-section input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.middle-section i {
+    padding: 10px;
+    color: rgb(178, 184, 178);
+    min-width: 50px;
+    margin-left: 80px;
+    text-align: right;
+    position: absolute;}
+    
+.left-p{
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.left-section ul{
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+}
+.left-section .fa{
+    color: #b5b0b0;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.left-section img{
+    height: 20px;
+    width: 20px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+.left-p{
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.left-section ul{
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+}
+.left-section .fa{
+    color: #b5b0b0;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.left-section img{
+    height: 20px;
+    width: 20px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+.sidebar{
+    background-color: #55186f;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    margin-top: 51px;
+}
+
+.sidebar span p{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.sidebar i{
+    color: white;
+    font-size: 20px;
+    margin-left: 19px;
+    padding: 10px;
+}
+
+.sidebar span {
+    background-color: #55186f;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 0;
+}
+.content{
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: #8CBED6;
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+}
+.sidebar .unique{
+    background-color:#8CBED6 ;
+    padding: 20px;
+    bottom: 10px;
+}
+.t-section {
+    margin-left: 100px;
+    background-color: #8CBED6;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    margin-top: 51px;
+    
+}
+
+.t-section a{
+    display: grid;
+    padding: 15px;
+    color: aliceblue;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.t-section h4{
+    margin-left: 20px;
+    background-color: #2e0af7;
+    margin-top: 15px;
+    width: 97px;
+    padding: 5px;
+    border-radius: 5px;
+}

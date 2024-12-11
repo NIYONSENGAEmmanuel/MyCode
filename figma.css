@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    box-shadow: #2e0af7 0px 0px 100px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    box-shadow: #ccc 0px 0px 10px;
+    box-shadow: #e03939 5px 5px 20px;
+}
+.w-section{
+    position: fixed;}
+.p-section p{
+    color: #55186f;
+    font-weight: bold;
+}
+
+.p-section .Acme{
+    color:white;
+    padding:5px;
+    border-radius: 5px;
+    font-weight: semibold;
+    background-color: #2e0af7;
+}
+
+.middle-section input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.middle-section i {
+    padding: 10px;
+    color: rgb(178, 184, 178);
+    min-width: 50px;
+    margin-left: 80px;
+    text-align: right;
+    position: absolute;
+}
+
+.left-p{
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.left-section ul{
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+}
+.left-section .fa{
+    color: #b5b0b0;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.left-section img{
+    height: 30px;
+    width: 30px;
+    margin-left: 70px;
+    border-radius: 50%;
+}
+
+.sidebar{
+    background-color: #55186f;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: px;
+    left: 0;
+    margin-top: 51px;
+}
+
+.sidebar span p{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.sidebar i{
+    color: white;
+    font-size: 20px;
+    margin-left: 19px;
+    padding: 10px;
+}
+
+.sidebar span {
+    background-color: #55186f;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 0;
+}
+.content{
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: #8CBED6;
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+}
+.sidebar .unique{
+    background-color:#8CBED6 ;
+    padding: 20px;
+    bottom: 10px;
+}
+.t-section {
+    margin-left: 100px;
+    background-color: #8CBED6;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    margin-top: 51px;
+    
+}
+
+.t-section a{
+    display: grid;
+    padding: 15px;
+    color: aliceblue;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.t-section h4{
+    margin-left: 20px;
+    background-color: #2e0af7;
+    margin-top: 15px;
+    width: 97px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.y-section {
+    margin-left: 400px;
+    margin-top: 40px;
+    
+}
+.y-section a{
+    color: black;
+    text-decoration: none;
+  font-weight: bold;  
+}
+.h-section{
+    margin: 400px; 
+    margin-top: 10px;
+    margin-bottom: 500px;
+    color: rgb(68, 67, 67);
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.h-section p{
+    margin-top: 5px;
+
+}
+h2{
+    color: #0a0a0a;
+    margin-top: 80px;
+}
+
+.r-section{
+   margin-left: 3px;
+   display: grid;
+   padding-bottom: 10px;
+   padding-top: 60px;
+   background-color: white;
+   border-radius: 20px;
+   padding: 5%;
+   margin-top: 10px;
+   border: 1px solid rgb(230, 220, 220);
+
+}
+.r-section p{
+    padding: 1px;
+    text-decoration: none;
+    color: #d33939;
+
+
+}
+.r-section p{
+    color: #373638;
+    line-height: 10px;
+}
+.r-section hr{
+padding: 1px;
+background-color: #28272b;
+margin-top: 10px;
+margin: 10px;
+}
+.r-section i{
+    margin-left: 480px;
+}
+.k-section{
+    margin-top: 5px;
+    background-color:white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+.k-section p{
+  margin-left: 20px;}
+
+.k-section h4{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.k-section li{
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.k-section ul{
+    margin-top: 50px;
+    margin-left: 800px;
+}
+.k-section i{
+    margin-left: 70%;
+}
+.m-section i{
+    margin-left: 500px;
+}
+.c-section li{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+padding: 30px;
+margin-left: 50px;
+}
+.c-section i{
+    margin-left: 70%;
+}
+.q-section li{
+  padding-top: 5px;
+  padding-left: 0;
+  padding: 0;
+
+}
+.c-section{
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 30px;
+    margin-left: 0;
+    border-radius: 10px;
+    
+}
+.q-section i{
+text-decoration: underline;
+    color: rgb(247, 243, 243);
+    margin-left: 300px,
+    
+}
+
+

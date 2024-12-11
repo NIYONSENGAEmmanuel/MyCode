@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+span{
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    margin-left: 80px;
+    
+}
+.A-section{
+    display: flex;
+}
+.a-section img{
+    width: 20px;
+    height:20px;
+padding-top: 10px;
+font-weight: 900;
+}
+.a-section button{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border: 1px solid aqua;
+    color: aqua;
+    
+}
+.B-section{
+    padding-top: 50px;
+    margin-left: 500px;
+}
+.B-section h4{
+    padding: 4px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.b-section{
+    padding-top: 20px;
+    margin-left:520px ;
+}
+.b-section p{
+    font-size: 12px;
+}
+.C-section{
+    padding-top: 20px;
+    margin-left: 570px;
+}
+.C-section button{
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 10px;
+    background-color: aqua;
+color: white;
+border: 1px white;
+}
+.D-section{
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+.D-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.D-section li {
+    margin: 0 10px; 
+}
+
+.D-section img {
+    display: inline-block;
+    height: auto;
+    width: 100px;
+}
+.D-section .image1{
+    width: 130px;
+    height: 150px;
+    border-radius: 100px; 
+    
+     
+
+}
+.D-section .image5{
+    width: 130px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    left: 1000px;
+}
+.D-section .image2{
+    width: 150px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    left: 400px;
+    top: 350px;
+    
+}
+.D-section .image4{
+    width: 150px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    left: 900px;
+}
+.D-section .image3{
+    width: 200px;
+    height: 300px;
+    border-radius: 100px;
+    position: absolute;
+    left: 540px;
+    top: 10;
+}
+
+.E-section{
+    margin-left: 700px;
+    font-size: 10px;
+    padding-top: 150px;
+}
+.e-section{
+    margin-left:400px ;
+    margin-top: 20px;
+    grid-row:0;
+    font-size: 30px;
+    
+}
+.e-section .f{
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 0px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-left: 300px;
+    padding: 30px;
+}
+
+.gallery img {
+    width: 50px;
+    height: auto;
+    object-fit: cover; 
+    font-size: 10px;
+    margin-left: 70px;
+
+}
+.v-section p{
+    color: #58d7f7;
+    font-weight: bold;
+}
+.v-section{
+    display: flex;
+    padding: 10px;
+    padding-left: 400px;
+}
+.v-section p{
+    padding-left: 30px;
+}
+.l-section{
+    display: flex;
+    padding: 10px;
+    margin: 0;
+}
+.l-section p{
+    font-weight: bold;
+    font-size: 17px;
+}
+h6{
+    font-size: 10px;
+    color: #58d7f7;
+    margin-left: 10px;
+}
+.M-section{
+    margin-left: 20px;
+    color: rgb(94, 92, 90);
+}
+.M-section img{
+    margin-left: 400px;
+
+}
+.N-section{
+    margin-left: 10px;
+    padding: 10px;
+    color: rgb(94, 92, 90);
+}
+.X-section{
+    margin-left: 20px;
+    padding: 10px;
+
+}
+.X-section button{
+    background-color: aqua;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+.emmy{
+    margin-left: 200px;
+    padding-top: 250px;
+}
+.XX{
+  margin-left: 500px;  
+  position: absolute;
+  top: 800px;
+  left: 150px;
+  width: 50px;
+  
+  
+
+}
+.XX img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.RR{
+    display: inline-block;
+}
+.pp{
+    display: flex;
+    padding-top: 250px;
+    margin-left: 500px;
+}
+
+
+
+
+
+
+
+
